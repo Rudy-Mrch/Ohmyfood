@@ -1,0 +1,19 @@
+.footer{
+    background-color:#353535 ;
+    color: white;
+    margin-left: -0.75em;
+    margin-right: -0.75em;
+    padding: 1em 0 1em 2em;
+
+
+&_title{
+    font-family: 'Shrikhand', cursive;
+   
+}
+&_logo{
+    padding-left: 0.25em;
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+}
+}
