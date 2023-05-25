@@ -1,3 +1,8 @@
+@media screen and (min-width: 1024px) {
+  .location {
+    background-color: yellow;
+  }
+}
 /* Variables colors */
 body {
   font-family: "Roboto", sans-serif;
@@ -53,6 +58,10 @@ li {
   padding: 1em;
   margin-top: 1.5em;
   margin-bottom: 3em;
+  width: 23em;
+}
+.introduction .button:hover {
+  cursor: pointer;
 }
 
 .functioning {
@@ -112,7 +121,7 @@ li {
   margin: 1em;
   position: relative;
   background: #ffffff;
-  height: 18em;
+  height: 16em;
 }
 .restaurants_image {
   -o-object-fit: cover;
@@ -145,10 +154,14 @@ li {
   padding-left: 1.25em;
 }
 
+.restaurant_descript {
+  line-height: 0;
+}
+
 .footer {
   background-color: #353535;
   color: white;
-  padding: 1em 0em 1em 3em;
+  padding: 1em 0em 1em 0em;
 }
 .footer_title {
   font-family: "Shrikhand", cursive;
@@ -161,8 +174,11 @@ li {
 
 li {
   list-style: none;
-  font-size: 1, 17em;
   line-height: 0.5;
+}
+
+footer a {
+  color: white;
 }
 
 .banner {
@@ -246,6 +262,7 @@ li {
   padding-left: 1em;
   justify-content: space-between;
   padding-right: 1em;
+  line-height: 0.5;
 }
 .menu_list_container__price {
   display: flex;
@@ -269,4 +286,7 @@ li {
   margin-top: 1.5em;
   margin-bottom: 3em;
   width: 20em;
+}
+.command__button:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

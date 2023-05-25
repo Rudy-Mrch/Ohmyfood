@@ -15,7 +15,7 @@
         margin: 1em;
         position: relative;
         background: #ffffff;
-        height: 18em;
+        height: 16em;
     }
 
     &_image {
@@ -28,16 +28,16 @@
     }
 
     &_name {
-    padding-left: 1.25em;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-right: 1.25rem;
+        padding-left: 1.25em;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-right: 1.25rem;
     }
 
 }
 
-.new{
+.new {
     color: #008766;
     background-color: $tertiary-color;
     border: 5px solid $tertiary-color;
@@ -46,10 +46,11 @@
     right: 1%;
     top: 5%;
 }
-.subtile_card{
+
+.subtile_card {
     padding-left: 1.25em;
 }
 
-
-
-
+.restaurant_descript {
+    line-height: 0;
+}

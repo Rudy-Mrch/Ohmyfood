@@ -26,6 +26,7 @@
     }
 .button{
     @include button-pink;
+    width: 23em; ;
 }
 }
 
