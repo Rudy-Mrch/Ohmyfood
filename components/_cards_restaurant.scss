@@ -1,8 +1,9 @@
 .restaurants {
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
+    margin-top: 5em;
     background-color: $quad-color;
+    padding: 2em 0em 3em 0em;
 
     &__title {
         padding-left: 2em;

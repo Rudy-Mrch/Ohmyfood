@@ -1,9 +1,8 @@
 .footer{
     background-color:#353535 ;
     color: white;
-    margin-left: -0.75em;
-    margin-right: -0.75em;
-    padding: 1em 0 1em 2em;
+  padding: 1em 0em 1em 3em;
+
 
 
 &_title{
@@ -11,9 +10,14 @@
    
 }
 &_logo{
-    padding-left: 0.25em;
+    
     display: flex;
     align-items: baseline;
     gap: 1em;
 }
+}
+li{
+    list-style: none;
+    font-size: 1,17em;
+    line-height: 0.5;
 }

@@ -43,6 +43,17 @@ li {
   color: #353535;
   font-weight: lighter;
 }
+.introduction .button {
+  background-image: linear-gradient(to top, #9356DC, #FF79DA);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  padding: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
 
 .functioning {
   display: flex;
@@ -85,25 +96,12 @@ li {
   padding-left: 2em;
 }
 
-.button {
-  background-image: linear-gradient(to top, #9356DC, #FF79DA);
-  color: white;
-  border: none;
-  border-radius: 25px 25px 25px 25px;
-  padding: 1em;
-  margin-top: 1.5em;
-  margin-bottom: 3em;
-}
-
-.button_card {
-  box-sizing: border-box;
-}
-
 .restaurants {
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
+  margin-top: 5em;
   background-color: #f6f6f6;
+  padding: 2em 0em 3em 0em;
 }
 .restaurants__title {
   padding-left: 2em;
@@ -150,16 +148,125 @@ li {
 .footer {
   background-color: #353535;
   color: white;
-  margin-left: -0.75em;
-  margin-right: -0.75em;
-  padding: 1em 0 1em 2em;
+  padding: 1em 0em 1em 3em;
 }
 .footer_title {
   font-family: "Shrikhand", cursive;
 }
 .footer_logo {
-  padding-left: 0.25em;
   display: flex;
   align-items: baseline;
   gap: 1em;
+}
+
+li {
+  list-style: none;
+  font-size: 1, 17em;
+  line-height: 0.5;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+.banner_arrow {
+  padding-left: 2em;
+}
+.banner_title {
+  flex-basis: 90%;
+  text-align: center;
+}
+
+.menu {
+  display: block;
+}
+.menu_pix {
+  box-sizing: border-box;
+}
+
+.menu_pix img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.container {
+  background-color: #f6f6f6;
+  margin-top: -3em;
+  border-radius: 25px 25px 0 0;
+  position: relative;
+}
+.container_banner {
+  font-family: shrikhand;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0.75em 0 0 0;
+}
+.container .fa-regular {
+  padding-right: 1em;
+  margin-left: auto;
+}
+.container .container_title {
+  margin-right: auto;
+  padding-left: 1em;
+}
+
+.menu_list {
+  block-size: border-box;
+  padding-top: 0.75em;
+}
+.menu_list h3 {
+  padding-left: 0.75em;
+  font-weight: 300;
+}
+.menu_list__line {
+  width: 3em;
+  border: 1.5px solid #99E2D0;
+  margin-left: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.menu_list_container {
+  background-color: white;
+  border-radius: 25px;
+  padding-top: 0.1em;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 0.5em;
+}
+.menu_list_container h4 {
+  padding-left: 1em;
+  margin-bottom: 0;
+}
+.menu_list_container_description {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 1em;
+  justify-content: space-between;
+  padding-right: 1em;
+}
+.menu_list_container__price {
+  display: flex;
+}
+.menu_list_container__price p {
+  font-weight: bold;
+}
+
+.command {
+  display: flex;
+  justify-content: center;
+}
+.command__button {
+  background-image: linear-gradient(to top, #9356DC, #FF79DA);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  padding: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  width: 20em;
 }/*# sourceMappingURL=main.css.map */

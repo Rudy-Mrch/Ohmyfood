@@ -24,6 +24,9 @@
         color: #353535;
         font-weight: lighter;
     }
+.button{
+    @include button-pink;
+}
 }
 
 .functioning {

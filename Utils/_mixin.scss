@@ -1,0 +1,18 @@
+@mixin font-shri{
+    font-family: shrikhand;
+    font-weight: 400;
+    text-align: center;
+}
+
+@mixin button-pink{
+        background-image: linear-gradient(to top, $primary-color, $secondary-color);
+        box-shadow: 0px 4px 16px rgba(0,0,0,0.30);
+        color: white;
+    height: 50px;
+        border: none;
+        border-radius: 25px;
+        padding: 1em;
+        margin-top: 1.5em;
+        margin-bottom: 3em;
+       
+      }
