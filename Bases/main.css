@@ -1,8 +1,3 @@
-@media screen and (min-width: 1024px) {
-  .location {
-    background-color: yellow;
-  }
-}
 /* Variables colors */
 body {
   font-family: "Roboto", sans-serif;
@@ -262,7 +257,7 @@ footer a {
   padding-left: 1em;
   justify-content: space-between;
   padding-right: 1em;
-  line-height: 0.5;
+  width: 90%;
 }
 .menu_list_container__price {
   display: flex;
