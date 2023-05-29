@@ -1,0 +1,48 @@
+@media screen and (min-width: 1024px) {
+
+    .functionning__list {
+        display: flex;
+        justify-content: space-between;
+}
+
+.restaurants_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  
+  .footer li {
+    flex-basis: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 1em;
+  }
+
+
+.container{
+
+margin: -3em 12em 0em 12em ;
+}
+
+.menu_list_container{
+    margin: 0em 6em 0.5em;
+}
+.menu_list h3 {
+    padding-left: 6em;
+   
+  }
+.menu_list__line {
+    margin-left: 6.75em;
+}
+.container_banner{
+    display: inline-flex;
+    gap: 2em;
+    padding-left: 15em;
+}
+}
