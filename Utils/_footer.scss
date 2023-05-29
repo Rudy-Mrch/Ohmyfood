@@ -2,9 +2,13 @@
     background-color:#353535 ;
     color: white;
   padding: 1em 0em 1em 0em;
- 
-
-
+  @media screen and (min-width: $breakpoint) {
+    display: flex;
+    flex-direction: row-reverse;
+  padding-right: 3em;
+  align-items: center;
+  }
+  
 &_title{
     font-family: 'Shrikhand', cursive;
     padding-left: 2.25em;
@@ -17,7 +21,19 @@
 }
 }
 
-
 footer a{
     color: white;
   }
+
+.footer ul{
+  @media screen and (min-width: $breakpoint) {
+    display: flex; 
+}
+}
+
+.footer li{
+  @media screen and (min-width:$breakpoint){
+    margin-bottom: 0.5em;
+    padding-left: 1em;
+  }
+}

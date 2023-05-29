@@ -55,6 +55,11 @@
     line-height: 0;
 }
 
-.restaurants_container{
+.restaurants_container {
     box-sizing: border-box;
+
+    @media screen and (min-width: $breakpoint) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
