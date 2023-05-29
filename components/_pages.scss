@@ -33,26 +33,13 @@
   border-radius: 25px 25px 0 0;
   position: relative;
 
-
-
   &_banner {
     @include font-shri;
     display: flex;
     align-items: center;
-    padding: 0.75em 0 0 0;
-  }
-
-  .fa-regular {
-    padding-right: 1em;
-    margin-left: auto;
-  }
-
-  .container_title {
-    margin-right: auto;
-    padding-left: 1em;
+    padding: 0.75em 0 0 1em;
     
   }
-
 }
 
 .menu_list {

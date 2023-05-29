@@ -2,24 +2,21 @@
     background-color:#353535 ;
     color: white;
   padding: 1em 0em 1em 0em;
-
+ 
 
 
 &_title{
     font-family: 'Shrikhand', cursive;
-   
+    padding-left: 2.25em;
 }
 &_logo{
     
     display: flex;
     align-items: baseline;
-    gap: 1em;
+    gap: 0.5em;
 }
 }
-li{
-    list-style: none;
-    line-height: 0.5;
-}
+
 
 footer a{
     color: white;

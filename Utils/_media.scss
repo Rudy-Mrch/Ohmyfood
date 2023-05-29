@@ -10,17 +10,20 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.footer{
+  display: flex;
+  flex-direction: row-reverse;
+padding-right: 3em;
+align-items: center;
+}
+
+
 .footer ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   
+    display: flex;  
   }
   
   .footer li {
-    flex-basis: 50%;
-    text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
     padding-left: 1em;
   }
 
@@ -41,8 +44,11 @@ margin: -3em 12em 0em 12em ;
     margin-left: 6.75em;
 }
 .container_banner{
-    display: inline-flex;
-    gap: 2em;
-    padding-left: 15em;
+  justify-content: center;
+}
+.functionning__list li {
+
+width: 20em;
+
 }
 }
