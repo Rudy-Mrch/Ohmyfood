@@ -53,10 +53,14 @@ li {
   padding: 1em;
   margin-top: 1.5em;
   margin-bottom: 3em;
+  opacity: 1;
+  transition: opacity 250ms, transform 250ms ease-in-out;
   width: 23em;
 }
 .introduction .button:hover {
-  cursor: pointer;
+  opacity: 0.85;
+  transition: all 250ms ease-in-out;
+  transform: scale(1.05);
 }
 
 .functionning {
@@ -189,6 +193,9 @@ li {
     padding-right: 3em;
     align-items: center;
   }
+}
+.footer .footer hover {
+  background-color: yellow;
 }
 .footer_title {
   font-family: "Shrikhand", cursive;
@@ -338,8 +345,12 @@ footer a {
   padding: 1em;
   margin-top: 1.5em;
   margin-bottom: 3em;
+  opacity: 1;
+  transition: opacity 250ms, transform 250ms ease-in-out;
   width: 20em;
 }
 .command__button:hover {
-  cursor: pointer;
+  opacity: 0.85;
+  transition: all 250ms ease-in-out;
+  transform: scale(1.05);
 }/*# sourceMappingURL=main.css.map */
