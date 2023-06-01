@@ -152,6 +152,9 @@ li {
   align-items: baseline;
   padding-right: 1.25rem;
 }
+.restaurants_name .fa-heart {
+  font-size: 1.5em;
+}
 
 .new {
   color: #008766;
@@ -193,9 +196,6 @@ li {
     padding-right: 3em;
     align-items: center;
   }
-}
-.footer .footer hover {
-  background-color: yellow;
 }
 .footer_title {
   font-family: "Shrikhand", cursive;
@@ -353,4 +353,8 @@ footer a {
   opacity: 0.85;
   transition: all 250ms ease-in-out;
   transform: scale(1.05);
+}
+
+.fa-regular.fa-heart:hover {
+  background: linear-gradient(to top, #9356DC, #FF79DA);
 }/*# sourceMappingURL=main.css.map */
