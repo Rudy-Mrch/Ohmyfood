@@ -357,4 +357,9 @@ footer a {
 
 .fa-regular.fa-heart:hover {
   background: linear-gradient(to top, #9356DC, #FF79DA);
+}
+
+.restaurants__card:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
 }/*# sourceMappingURL=main.css.map */
