@@ -12,20 +12,14 @@
   }
 }
 
-.menu {
-  display: block;
-
-
-  &_pix {
+  .menu_pix {
     box-sizing: border-box;
-  }
-}
-
-.menu_pix img {
+   img {
   object-fit: cover;
   width: 100%;
   height: 250px;
 }
+  }
 
 .container {
   background-color: $quad-color;
@@ -47,71 +41,106 @@
   }
 }
 
-.menu_list {
-  block-size: border-box;
-  padding-top: 0.75em;
-
-  h3 {
-    padding-left: 0.75em;
-    font-weight: 300;
-    @media screen and (min-width: $breakpoint){
-      padding-left: 6em;
-    }
-  }
-
-  &__line {
-    width: 3em;
-    border: 1.5px solid $tertiary-color;
+.menu {
     margin-left: 0.75em;
-    margin-bottom: 0.5em;
-    @media screen and (min-width: $breakpoint){
-      margin-left: 6.75em;
+      margin-right: 0.75em;
+  &__part{
+    box-sizing: border-box;
+  }
+  }
+
+  
+  .category { 
+    &__name {
+      margin-left: 0.75em;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      font-weight: 300;
+      font-size: 16px;
+      &--line {
+        width: 3em;
+        border: 1.5px solid $tertiary-color;
+        margin-left: 0.75em;
+        margin-bottom: 1em;
+      }
     }
   }
-}
-
-.menu_list_container {
-  background-color: white;
-  border-radius: 25px;
-  padding-top: 0.1em;
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
-  margin-bottom: 0.5em;
-  @media screen and (min-width: $breakpoint){
-    margin: 0em 6em 0.5em;
-  }
-
-  h4 {
-    padding-left: 1em;
-    margin-bottom: 0;
-  }
-
-  &_description {
+  
+  .choice {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75em;
+      &__card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
     display: flex;
-    margin-bottom: 0;
-    padding-left: 1em;
-    justify-content: space-between;
-    padding-right: 1em;
-    width: 90%;
-  }
-
-  &__price {
-display: flex;
-
-    p {
-      font-weight: bold;
-      
+    flex-direction: row;
+    height: 4.3em;
+    overflow: hidden;
+    &__txt {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: auto;
+      flex: 1;
+      padding-left: 20px;
+      @include ellipse;
+      &--title{
+        @include ellipse;
+        font-weight: 500;
+        font-size: 18px;
+        padding-top: 0.8em;
+      }
+      &--description{
+        @include ellipse;
+        font-weight: 300;
+        font-size: 15px;
+        padding-bottom: 12px;
+      }
+    }
+    &__price {
+    width: 4.3em;
+    height: 100%;
+    display: flex;
+    padding-top: 2.3em;
+    justify-content: center;
+    span{
+          font-weight: 700;
+          font-size: 15px;
+    }
+    }
+    &__check {
+      width: 4.3em;
+      height: 100%;
+      margin-right: -4.3em;
+      background-color: $tertiary-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition-duration: 0.3s;
+      cursor: pointer;
+    }
+    &:hover > .choice__card__check {
+      margin: 0;
+      transition: all 0.8s;
     }
   }
-}
-
+  }
+  .fa-circle-check{
+    color: white;
+  }
 .command{
   display: flex;
   justify-content: center;
-
-
+  padding-top: 1em;
+  
 &__button{
   @include button-pink;
   width: 20em;
 }
 }
-
+.choice__card__txt p,
+.choice__card__txt h3 {
+  margin: 0;
+}
