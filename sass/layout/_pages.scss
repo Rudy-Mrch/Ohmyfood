@@ -3,7 +3,8 @@
   align-items: center;
 
   &_arrow {
-    padding-left: 2em;
+    padding-left: 1em;
+    font-size: 1.5em;
   }
 
   &_title {
@@ -39,7 +40,17 @@
       justify-content: center;
     }
   }
+  &_title{
+    i{
+      right: 1em;
+      @media screen and (min-width: $breakpoint){
+        right: auto;
+        padding-left: 0.5em;
+    }
+  }
 }
+}
+
 
 .menu {
     margin-left: 0.75em;

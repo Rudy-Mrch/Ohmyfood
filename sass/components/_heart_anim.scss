@@ -1,0 +1,42 @@
+.heart__icon i {
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  .my-heart-full {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(#ff79dA, #9356dc);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  .my-heart-full:hover {
+    opacity: 1;
+    background-position: 0% 100%;
+    background-image: linear-gradient(#ff79dA, #9356dc);
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fa-heart {
+    position: absolute;
+    cursor: pointer;
+    font-size: 1.2em;
+  
+    &__full {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(#ff79dA, #9356dc);
+      -webkit-background-clip: text;
+      background-clip: text;
+  
+      &:hover {
+        opacity: 1;
+        background-position: 0% 100%;
+        background-image: linear-gradient(#ff79dA, #9356dc);
+        transition: opacity 1s ease-in-out;
+      }
+    }
+  }
