@@ -7,7 +7,7 @@
     opacity: 0;
     transition: opacity 1s ease-in-out;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(#ff79dA, #9356dc);
+    background-image: linear-gradient($secondary-color, $primary-color);
     -webkit-background-clip: text;
     background-clip: text;
   }
@@ -15,7 +15,7 @@
   .my-heart-full:hover {
     opacity: 1;
     background-position: 0% 100%;
-    background-image: linear-gradient(#ff79dA, #9356dc);
+    background-image: linear-gradient($secondary-color, $primary-color);
     transition: opacity 1s ease-in-out;
   }
   
@@ -28,14 +28,14 @@
       opacity: 0;
       transition: opacity 1s ease-in-out;
       -webkit-text-fill-color: transparent;
-      background-image: linear-gradient(#ff79dA, #9356dc);
+      background-image: linear-gradient($secondary-color, $primary-color);
       -webkit-background-clip: text;
       background-clip: text;
   
       &:hover {
         opacity: 1;
         background-position: 0% 100%;
-        background-image: linear-gradient(#ff79dA, #9356dc);
+        background-image: linear-gradient($secondary-color, $primary-color);
         transition: opacity 1s ease-in-out;
       }
     }

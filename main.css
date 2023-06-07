@@ -32,7 +32,7 @@ li {
 
 .introduction {
   text-align: center;
-  background-color: #f6F6F6;
+  background-color: #f6f6f6;
 }
 .introduction__title {
   font-size: 24px;
@@ -200,7 +200,7 @@ li {
   opacity: 0;
   transition: opacity 1s ease-in-out;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#ff79dA, #9356dc);
+  background-image: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -208,7 +208,7 @@ li {
 .my-heart-full:hover {
   opacity: 1;
   background-position: 0% 100%;
-  background-image: linear-gradient(#ff79dA, #9356dc);
+  background-image: linear-gradient(#FF79DA, #9356DC);
   transition: opacity 1s ease-in-out;
 }
 
@@ -221,14 +221,14 @@ li {
   opacity: 0;
   transition: opacity 1s ease-in-out;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#ff79dA, #9356dc);
+  background-image: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   background-clip: text;
 }
 .fa-heart__full:hover {
   opacity: 1;
   background-position: 0% 100%;
-  background-image: linear-gradient(#ff79dA, #9356dc);
+  background-image: linear-gradient(#FF79DA, #9356DC);
   transition: opacity 1s ease-in-out;
 }
 
@@ -461,7 +461,7 @@ footer a {
   position: fixed;
   display: grid;
   place-items: center;
-  background: linear-gradient(#ff79dA, #9356dc);
+  background: linear-gradient(#9356DC, #FF79DA);
   height: 100vh;
   inset: 0;
   z-index: 1;
@@ -473,6 +473,7 @@ footer a {
   display: inline-block;
   font-size: 48px;
   color: yellow;
+  text-shadow: 3px 3px 3px black;
   font-family: shrikhand;
 }
 

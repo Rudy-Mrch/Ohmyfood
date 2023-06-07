@@ -12,7 +12,7 @@
 
 .introduction {
     text-align: center;
-    background-color: #f6F6F6;
+    background-color: $quad-color;
 
     &__title {
         font-size: 24px;
@@ -53,7 +53,7 @@
         margin: 1.5em 1.5em;
         border-radius: 25px;
         box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
-        background-color: #f6f6f6;
+        background-color: $quad-color;
         @media screen and (min-width: $breakpoint){
           width: 20em;
         }
