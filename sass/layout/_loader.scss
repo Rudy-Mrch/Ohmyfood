@@ -1,0 +1,71 @@
+.loader {
+    position: fixed;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(#ff79dA, #9356dc);
+    height: 100vh;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.9;
+    animation: disappear 0.3s 3.5s forwards;
+  }
+  
+  .word {
+    display: inline-block;
+    font-size: 48px;
+    color: yellow;
+    font-family: shrikhand;
+  }
+  
+  .word span {
+    display: inline-block;
+    animation: spin 3s;
+  }
+  
+  @keyframes disappear {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .word span:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .word span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .word span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .word span:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  
+  .word span:nth-child(5) {
+    animation-delay: 0.8s;
+  }
+  
+  .word span:nth-child(6) {
+    animation-delay: 1s;
+  }
+  
+  .word span:nth-child(7) {
+    animation-delay: 1.2s;
+  }
+  
+  .word span:nth-child(8) {
+    animation-delay: 1.4s;
+  }
+  
