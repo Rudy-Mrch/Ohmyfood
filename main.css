@@ -332,6 +332,8 @@ footer a {
 .menu {
   margin-left: 0.75em;
   margin-right: 0.75em;
+  opacity: 0;
+  animation: menuFadeIn 4s forwards;
 }
 .menu__part {
   box-sizing: border-box;
@@ -479,19 +481,6 @@ footer a {
   animation: spin 3s;
 }
 
-@keyframes disappear {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
-@keyframes spin {
-  to {
-    transform: rotateY(360deg);
-  }
-}
 .word span:nth-child(1) {
   animation-delay: 0s;
 }
@@ -522,4 +511,28 @@ footer a {
 
 .word span:nth-child(8) {
   animation-delay: 1.4s;
+}
+
+@keyframes disappear {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes menuFadeIn {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */

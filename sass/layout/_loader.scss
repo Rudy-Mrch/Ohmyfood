@@ -22,21 +22,6 @@
     animation: spin 3s;
   }
   
-  @keyframes disappear {
-    0% {
-      transform: scale(1);
-    }
-    100% {
-      transform: scale(0);
-    }
-  }
-  
-  @keyframes spin {
-    to {
-      transform: rotateY(360deg);
-    }
-  }
-  
   .word span:nth-child(1) {
     animation-delay: 0s;
   }
