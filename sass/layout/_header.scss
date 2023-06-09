@@ -32,6 +32,9 @@
 
 .functionning{
     margin-bottom: 50px;
+    @media screen and (min-width: $breakpoint) {
+     padding: 0 5em 0 5em;
+  }
   
     h2 {
       padding: 20px;
