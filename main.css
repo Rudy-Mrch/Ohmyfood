@@ -328,6 +328,7 @@ footer a {
 @media screen and (min-width: 1024px) {
   .container_banner {
     justify-content: center;
+    padding-left: 0em;
   }
 }
 .container_title i {
@@ -341,8 +342,8 @@ footer a {
 }
 
 .menu {
-  margin-left: 0.75em;
-  margin-right: 0.75em;
+  margin-left: 7em;
+  margin-right: 7em;
   opacity: 0;
   animation: menuFadeIn 4s forwards;
 }

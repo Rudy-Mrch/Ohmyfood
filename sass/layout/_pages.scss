@@ -41,6 +41,7 @@
 
     @media screen and (min-width: $breakpoint) {
       justify-content: center;
+      padding-left: 0em;
     }
   }
 
@@ -58,8 +59,8 @@
 
 
 .menu {
-  margin-left: 0.75em;
-  margin-right: 0.75em;
+  margin-left: 7em;
+  margin-right: 7em;
   opacity: 0;
   animation: menuFadeIn 4s forwards;
 
