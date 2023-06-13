@@ -341,15 +341,21 @@ footer a {
 @media screen and (min-width: 1024px) {
   .container_title i {
     right: auto;
-    padding-left: 0.5em;
+    padding-left: 1em;
   }
 }
 
 .menu {
-  margin-left: 7em;
-  margin-right: 7em;
+  margin-left: 1em;
+  margin-right: 1em;
   opacity: 0;
   animation: menuFadeIn 4s forwards;
+}
+@media screen and (min-width: 1024px) {
+  .menu {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
 .menu__part {
   box-sizing: border-box;

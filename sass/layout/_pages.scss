@@ -51,7 +51,7 @@
 
       @media screen and (min-width: $breakpoint) {
         right: auto;
-        padding-left: 0.5em;
+        padding-left: 1em;
       }
     }
   }
@@ -59,10 +59,14 @@
 
 
 .menu {
-  margin-left: 7em;
-  margin-right: 7em;
+  margin-left: 1em;
+  margin-right: 1em;
   opacity: 0;
   animation: menuFadeIn 4s forwards;
+  @media screen and (min-width: $breakpoint) {
+    margin-left: 20%;
+  margin-right: 20%;
+  }
 
 
 
