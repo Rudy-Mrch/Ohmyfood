@@ -48,6 +48,16 @@
     }
 }
 
+.restaurant_name h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.subtile_card p{
+    font-size: 17px ;
+    font-weight: 300;
+}
+
 
 .new {
     color: #008766;
@@ -55,7 +65,7 @@
     border: 5px solid $tertiary-color;
     border-radius: 5px;
     position: absolute;
-    right: 1%;
+    right: 5%;
     top: 5%;
 }
 

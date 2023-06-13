@@ -12,6 +12,8 @@
 &_title{
     font-family: 'Shrikhand', cursive;
     padding-left: 2.25em;
+    font-size: 18px;
+    
 }
 &_logo{
     
@@ -32,8 +34,14 @@ footer a{
 }
 
 .footer li{
+  
   @media screen and (min-width:$breakpoint){
     margin-bottom: 0.5em;
     padding-left: 1em;
   }
+}
+
+.footer h3{
+  font-weight: 400;
+  font-size: 16px;
 }

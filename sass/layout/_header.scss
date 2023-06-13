@@ -18,15 +18,17 @@
         font-size: 24px;
         color: rgb(0, 0, 0);
         padding-top: 0.7em;
+        font-weight: 700;
     }
 
     &__down-title {
         color: #353535;
-        font-weight: lighter;
+        font-weight: 300;
+        font-size: 18px;
     }
 .button{
     @include button-pink;
-    width: 23em; ;
+    width: 14em; ;
 }
 }
 
@@ -38,6 +40,7 @@
   
     h2 {
       padding: 20px;
+      font-size: 24px;
     }
   
     &__list {
@@ -52,8 +55,9 @@
         justify-content: flex-start;
         align-items: center;
         flex-wrap: nowrap;
-       padding: 1.5em;
+       padding: 0.5em;
         margin: 1.5em 1.5em;
+        font-weight: 500;
         border-radius: 25px;
         box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
         background-color: $quad-color;
@@ -65,8 +69,8 @@
           background-color: $primary-color;
           color: white;
           border-radius: 50%;
-          padding: 1em;
-          margin-left: -2.5em;
+          padding: 0.2em;
+          margin-left: -1.3em;
           width: 1em;
           text-align: center;
         }
